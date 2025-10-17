@@ -6,6 +6,7 @@
                 "rules": [
                     {
                         "description": "Map left_control + ;/' to () and left_command + ;/' to {}",
+                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": {
@@ -127,14 +128,6 @@
                 ]
             },
             "devices": [
-                {
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "product_id": 641,
-                        "vendor_id": 1452
-                    },
-                    "ignore": true
-                },
                 {
                     "identifiers": {
                         "is_keyboard": true,
